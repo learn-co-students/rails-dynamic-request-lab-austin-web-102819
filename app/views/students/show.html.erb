@@ -1,0 +1,9 @@
+<div>
+<%# print the full name in an h1 tag %>
+<%= @student.to_s %>
+</div>
+<%# Print the student's first name in an h1 tag %>
+<h1><%= @student.first_name %></h1>
+
+<%# We're able to access these Ruby Instance variable (@students) because we gained access to them via the show method in students_controller.rb %>
+<h1><%= @student.last_name %></h1>
